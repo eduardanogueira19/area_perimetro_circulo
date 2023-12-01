@@ -1,8 +1,10 @@
 #include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
 
 #define PI 3.14
 
-//área e do perímetro de um círculo.
+//Ã¡rea e do perÃ­metro de um cÃ­rculo.
 int main()
 {
 	float area, perimetro, raio; 
@@ -14,4 +16,6 @@ int main()
 	area =  PI * pow(raio, 2);
 	printf("Perimetro: %.2f\n", perimetro);
 	printf("Area: %.2f\n", area);
+
+	return(0);
 }
